@@ -32,3 +32,9 @@ body::-webkit-scrollbar-thumb {
   background: linear-gradient(90deg, #51CCDFFF 0%, rgb(13, 147, 230) 100%);
   border-radius: 10px;
 }
+
+@media screen and (max-width: 770px){
+  .page-data {
+    top: 150px;
+  }
+}

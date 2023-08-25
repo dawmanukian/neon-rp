@@ -55,4 +55,8 @@
    
         gap: 45px;
     }
+    .neon-play .container img {
+        width: 100%;
+        
+    }
 }

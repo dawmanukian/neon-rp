@@ -18,3 +18,17 @@ body {
   position: relative;
   top: 200px;
 }
+
+body::-webkit-scrollbar {
+  width: 0.4em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: rgba(0,181,255, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background: rgb(0,181,255);
+  background: linear-gradient(90deg, #51CCDFFF 0%, rgb(13, 147, 230) 100%);
+  border-radius: 10px;
+}

@@ -48,3 +48,9 @@
     border-radius: 50%;
     color: rgb(0,181,255);
 }
+
+@media screen and (max-width: 550px){
+    .all-servers .server {
+        width: 100%;
+    }
+}

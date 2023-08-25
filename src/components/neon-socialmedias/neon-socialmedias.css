@@ -1,0 +1,9 @@
+.social-medias h1 {
+    color: #fff;
+}
+.medias {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}

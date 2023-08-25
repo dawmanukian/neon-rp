@@ -1,0 +1,50 @@
+.all-servers {
+    margin: 20px 0px 0px 0px;
+    display: grid;
+    gap: 30px;
+    width: 100%;
+}
+
+.all-servers .server {
+    background: rgb(0,181,255);
+    background: linear-gradient(90deg, #51CCDFFF 0%, rgb(13, 147, 230) 100%);
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    width: 400px;
+    cursor: pointer;
+    transition: all ease .3s;
+    animation-name: anim;
+    animation-duration: 1s;
+    position: relative;
+    box-shadow: rgba(0,181,255, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+@keyframes anim {
+    from {
+        left: 300px;
+        background: linear-gradient(90deg, #51CCDFFF 0%, rgb(13, 147, 230) 100%);    box-shadow: rgba(0,181,255, 0.4) 5px 5px, rgba(0,181,255, 0.3) 10px 10px, rgba(0,181,255, 0.2) 15px 15px, rgba(0,181,255, 0.1) 20px 20px, rgba(0,181,255, 0.05) 25px 25px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+.all-servers .server:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #51CCDFFF 0%, rgb(13, 147, 230) 100%);    box-shadow: rgba(0,181,255, 0.4) 5px 5px, rgba(0,181,255, 0.3) 10px 10px, rgba(0,181,255, 0.2) 15px 15px, rgba(0,181,255, 0.1) 20px 20px, rgba(0,181,255, 0.05) 25px 25px;
+
+}
+.all-servers .server .server-number {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+    color: rgb(0,181,255);
+}

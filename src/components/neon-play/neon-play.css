@@ -1,0 +1,58 @@
+.neon-play {
+    overflow-x: hidden;
+}
+.neon-play .container h1 {
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    color: #fff;
+}
+.neon-play .container .rp {
+    color: #51CCDFFF;
+}
+.sign-in {
+    border: none;
+    color: #fff;
+    padding: 10px;
+    margin: 0px 0px 0px 10px;
+    border-radius: 20px;
+    background: rgb(0,181,255);
+    background: linear-gradient(90deg, #51CCDFFF 0%, rgb(13, 147, 230) 100%);
+    width: 250px;
+    transition: all ease .3s;
+    box-shadow: rgba(0,181,255, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.sign-in:hover {
+    transform: scale(1.1);
+}
+.neon-play .container {
+    display: flex;
+    justify-content: space-between;
+}
+.neon-play-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+    transition: all ease .3s;
+    animation-name: anim0;
+    animation-duration: 1s;
+    padding: 0 0 50px 0;
+}
+
+@keyframes anim0 {
+    from {
+        right: 300px;
+    }
+    to {
+        right: 0px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .neon-play .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+    }
+}

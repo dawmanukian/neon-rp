@@ -12,14 +12,16 @@ const NeonPlay = () => {
             name: 'Neon RP - Moscow 01',
             members: 442,
             max: 500,
-            number: '01'
+            number: '01',
+            ip: '127.0.0.1:7777'
         },
         {
             id: 2,
             name: 'Neon RP - Yerevan 02',
             members: 230,
             max: 500,
-            number: '02'
+            number: '02',
+            ip: '126.0.0.1:7777'
         },
         
     ]
@@ -36,7 +38,7 @@ const NeonPlay = () => {
                 <h1 className='neon-play-ab'>Играй со своими друзьями</h1>
                 <Link>            
                     <button className='sign-in'>
-                        Войти
+                        Войти   
                     </button>
                 </Link>
             </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './neon-servers.css';
+import CopyToClipboard from 'react-copy-to-clipboard';
 
 const NeonServers = ({servers}) => {
   return (
@@ -8,17 +9,20 @@ const NeonServers = ({servers}) => {
         <div className='all-servers'>
             {servers.map(el => {
                 return (
-                    <div className='server'>
-                        <div>
-                            <h5>{el.name}</h5>
-                            <b>{el.members} / {el.max}</b>
+                    <CopyToClipboard text={el.ip}>
+                        <div className='server' onClick={() => alert('Copied !')}>
+                            <div className='server-data'>
+                                <h5>{el.name}</h5>
+                                <b>{el.members} / {el.max}</b>
+                                    <button className='api-btn'>Скопировать IP</button>
+                            </div>  
+                            <div className='server-number'>
+                                <b>
+                                    {el.number}
+                                </b>
+                            </div>
                         </div>
-                        <div className='server-number'>
-                            <b>
-                                {el.number}
-                            </b>
-                        </div>
-                    </div>
+                    </CopyToClipboard>
                 )
             })}
         </div>

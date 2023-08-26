@@ -1,9 +1,47 @@
 footer {
-    height: 350px;
+    height: 300px;
+    position: relative;
+    bottom: 0px;
 }
 
 .footer-data {
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    color: #fff;
+}
+
+.footer-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-text .neon {
+    display: flex;
+    gap: 10px;
+    font-weight: 900;
+}
+
+.footer-text .rp {
+    color: #51CCDFFF;
+}
+
+.footer-btns {
+    display: flex;
+    margin: 10px 0px 0px 0px;
+    gap: 20px;
+}
+
+.footer-btns button {
+    height: 40px;
+    border-radius: 10px;
+    padding: 7px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    background: rgb(0,181,255);
+    background: linear-gradient(90deg, #51CCDFFF 0%, rgb(13, 147, 230) 100%);
 }

@@ -52,6 +52,7 @@ header .navbar-links a:hover {
 .offcanvas {
     background: #0A152CFF;
     min-height: 75vh;
+    border-radius: 0px 0px 30px 30px;
 }
 
 header .container button {

@@ -10,7 +10,7 @@
     border-radius: 17px;
     cursor: pointer;
     transition: all ease .3s;
-    box-shadow: rgba(0,181,255, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0,181,255, 0.3) 0px 19px 38px, rgba(0,181,255, 0.22) 0px 15px 12px;
     animation-name: anim1;
     animation-duration: 1s;
 }
@@ -29,12 +29,11 @@
 }
 .social-media .social-media-logo {
     color: #fff;
-    font-size: 100px;
+    font-size: 6em;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 @media screen and (max-width: 770px){
     .social-media {
         height: 150px;

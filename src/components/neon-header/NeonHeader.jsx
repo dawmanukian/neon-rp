@@ -5,6 +5,7 @@ import './header.css';
 import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import headerIMG from '../../img/58209396e830406ba3d0ecf92d9aaec5-removebg-preview.png'
 
 const NeonHeader = () => {
   const [show, setShow] = useState(false);
@@ -39,7 +40,8 @@ const NeonHeader = () => {
                   <Link to={'/forum'}>форум</Link>
                   <Link to={'/rating'}>рейтинг</Link>
                   <Link to={'/donate'}>донат</Link>
-                </div> 
+                </div>
+                <img src={headerIMG} height={'300px'}/>
               </Offcanvas.Body>
             </Offcanvas>
         </div>

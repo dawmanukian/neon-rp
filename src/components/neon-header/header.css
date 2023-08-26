@@ -41,6 +41,7 @@ header .navbar-links a {
     color: #fff;
     transition: all ease .3s;
     font-size: 19px;
+    text-transform: capitalize;
 }
 
 header .navbar-links a:hover {
@@ -50,7 +51,7 @@ header .navbar-links a:hover {
 
 .offcanvas {
     background: #0A152CFF;
-    min-height: 80vh;
+    min-height: 75vh;
 }
 
 header .container button {
@@ -61,8 +62,10 @@ header .container button {
 
 .offcanvas-body {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+    padding: 35px 0px 0px 0px;
 }
 .offcanvas-body .navbar-links {
     display: flex;
@@ -76,6 +79,11 @@ header .container button {
     transition: all ease .3s;
     font-size: 22px;
     text-decoration: none;
+    text-transform: capitalize;
+}
+.offcanvas-body .navbar-links a:hover {
+    color: #51CCDFFF;
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 770px){

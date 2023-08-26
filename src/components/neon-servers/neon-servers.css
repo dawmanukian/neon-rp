@@ -60,6 +60,22 @@
     flex-direction: column;
     gap: 10px;
 }
+.servers-success {
+    animation-name: anim3;
+    animation-duration: 0.4s;
+    color: green;
+    background: rgba(0, 128, 0, 0.351);
+    border-radius: 7px;
+    padding: 10px;
+}
+@keyframes anim3 {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
 @media screen and (max-width: 550px){
     .all-servers .server {
         width: 100%;

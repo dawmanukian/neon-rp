@@ -12,15 +12,15 @@
     transition: all ease .3s;
     box-shadow: rgba(0,181,255, 0.3) 0px 19px 38px, rgba(0,181,255, 0.22) 0px 15px 12px;
     animation-name: anim1;
-    animation-duration: 1s;
+    animation-duration: .7s;
 }
 
 @keyframes anim1 {
     from {
-        transform: scale(0.1);
+        transform: scaleX(-1.3);
     }
     to {
-        transform: scale(1);
+        transform: scaleX(1);
     }
 }
 

@@ -3,6 +3,7 @@ import './neon-socialmedias.css'
 import NeonSocialMedia from '../neon-socialmedia/NeonSocialMedia'
 import { FaVk, FaInstagram, FaDiscord,FaTelegram } from "react-icons/fa6";
 import img1 from './../../img/58209396e830406ba3d0ecf92d9aaec5-removebg-preview.png'
+import AOS from 'aos';
 
 const NeonSocialMedias = () => {
   return (

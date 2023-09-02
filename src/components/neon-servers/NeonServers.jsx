@@ -14,7 +14,7 @@ const NeonServers = ({servers}) => {
 
             {servers.map(el => {
                 return (
-                    <CopyToClipboard text={el.ip}>
+                    <CopyToClipboard text={el.ip} key={el.id}>
                         <div className='server' onClick={() => {
                             setIsCopied(true)
                             setTimeout(() => {

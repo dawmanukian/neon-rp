@@ -1,0 +1,21 @@
+.about-page {
+    position: relative;
+    animation-name: about-animation;
+    animation-duration: 1s;
+}
+@keyframes about-animation {
+    from {
+        bottom: 500px;
+    }
+    to {
+        bottom: 0px;
+    }
+}
+.about-page .about {
+    color: #fff;
+    display: grid;
+    gap: 25px;
+}
+.about-page .about h1 {
+    color: #51CCDFFF;
+}

@@ -1,5 +1,6 @@
 .neon-play {
     overflow-x: hidden;
+    padding: 35px 0px 0px 0px;
 }
 .neon-play .container h1 {
     display: flex;
@@ -39,7 +40,9 @@
     animation-duration: 1s;
     padding: 0 0 50px 0;
 }
-
+.neon-play-info img {
+    box-shadow: rgba(0,181,255, 0.5) 0px 1px 38px, rgba(0, 0, 0, 0.25) 0px 15px 12px;
+}
 @keyframes anim0 {
     from {
         right: 300px;

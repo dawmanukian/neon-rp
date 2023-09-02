@@ -1,0 +1,32 @@
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+}
+.new {
+    height: 550px;
+    width: 400px;
+    background: #101A34FF;
+    border-radius: 23px;
+    color: #fff;
+    cursor: pointer;
+    transition: all ease .5s;
+    
+}
+.new:hover {
+    transform: scale(1.05);
+}
+.new img {
+    border-radius: 23px 23px 0px 0px;
+}
+.new-text {
+    padding: 12px;
+}
+@media screen and (max-width: 991px){
+    .new {
+        width: 100%;
+        height: auto;
+    }
+}

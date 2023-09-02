@@ -10,9 +10,9 @@ const NeonSocialMedias = () => {
     <div className='social-medias container'>
       <h1>наши социальные сети </h1>
       <div className='medias'>
-        <NeonSocialMedia logo={<FaVk />}/>
-        <NeonSocialMedia logo={<FaDiscord />}/>
-        <NeonSocialMedia logo={<FaTelegram />}/>
+        <NeonSocialMedia logo={<FaVk />} link={'https://vk.com/official_neon_rp'}/>
+        <NeonSocialMedia logo={<FaDiscord />} link={'https://discord.gg/M2tuMER6'}/>
+        <NeonSocialMedia logo={<FaTelegram />} link={'https://t.me/+07EDF137X-xiMGQy'}/>
       </div>
     </div>
   )

@@ -1,0 +1,31 @@
+.rating {
+    display: grid;
+    gap: 25px;
+    position: relative;
+    animation-name: rating-animation;
+    animation-duration: 1s;
+    text-align: center;
+    
+}
+.rating h1 {
+    color: #fff;
+}
+@keyframes rating-animation {
+    from {
+        bottom: 500px;
+    }
+    to {
+        bottom: 0px;
+    }
+}
+.player-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    width: auto;
+    background: #101A34FF;
+    padding: 0px 30px 0px 30px;
+    border-radius: 22px;
+    height: 70px;
+}
